@@ -1,0 +1,156 @@
+.portifolio-banner-title{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  z-index: 16;
+}
+
+.portifolio-banner{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 450px;
+  background-image: url(/imgs/banner-portifolio.jpg);
+  background-size:cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.portifolio-banner-title h2{
+  font-size: 2.5rem;
+  font-family: "rubick-regular";
+  z-index: 17;
+  position: relative;
+}
+
+.portifolio-banner-title h2::after{
+  content: "";
+  position: absolute;
+  bottom:-25%;
+  left:0;
+  width: 20%;
+  height: 5px;
+  background-color:#FF8A00;
+}
+
+.portifolio-box-item{
+  position: relative;
+  width: 1500px;
+  max-width: 90%;
+  padding:10px 0 70px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  margin:0 auto;
+  z-index: 18;
+}
+
+.portifolio-box-item img{
+  width: 100%;
+}
+
+
+.projeto-img{
+  display: flex;
+}
+
+.projeto-img img{
+  object-fit: cover;
+  height: 400px;
+}
+
+.projeto-title{
+  text-align: center;
+  background-color:#2e2e2e;
+  padding:25px;
+  font-family: "rubick-semiBold";
+  color:#ffff;
+  border-bottom: 10px inset #FAA303; 
+}
+
+.projeto-texto{
+  padding:50px;
+  background-color: #2e2e2e;
+  color:#ffff;
+  font-size:1rem;
+  text-align: start;
+  line-height: 1.4rem;
+  font-family: "rubick-light";
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  display: none;
+}
+
+.cta-projeto{
+  position: relative;
+  width: 100%;
+  padding:25px;
+}
+
+.btn-projeto{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background:#FF8A00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+}
+
+.btn-projeto:hover{
+  background:#DF7800;
+  transition: 0.2s;
+}
+
+.btn-projeto img{
+  width: 30px;
+  height: auto;
+  transform: rotate(-180deg);
+  animation: arrowMove 1s ease-in-out 15;
+}
+
+@media screen and (max-width:1350px){
+  .projeto-texto{
+    font-size:1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media screen and (max-width:1350px){
+    .projeto-texto{
+      font-size:0.8rem;
+      line-height: 1.3rem;
+    }
+}
+
+@media screen and (max-width:1000px){
+  .portifolio-box-item{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width:480px){
+  .projeto-texto{
+    font-size:0.7rem;
+    line-height: 1.1rem;
+    padding:30px 15px;
+  }
+
+  .projeto-texto .cta{
+    margin-top:35px;
+  }
+
+  .portifolio-banner-title h2{
+    font-size:1.7rem;
+    text-align: center;
+  }
+}

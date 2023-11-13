@@ -1,0 +1,95 @@
+.change{
+  display: block !important;
+  animation: changeFrameText .3s ease-out;
+}
+
+.changeAdd{
+  display: flex !important;
+  animation: changeFrameText .3s ease-out;
+}
+
+.activeBar{
+  background-color: #FF8A00;
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+
+.currentSlide{
+  transform: scale(1.05);
+  background-color: #ffff;
+  transition: 0.2s;
+}
+
+.js-anime{
+  opacity: 0;
+}
+
+.js-anime.activeScrollAnime{
+  opacity: 1;
+  animation: animeScrollTop .3s ease-out;
+}
+
+.left-anime.js-anime.activeScrollAnime{
+  animation: animeScrollLeft .3s ease-out;
+}
+
+.right-anime.js-anime.activeScrollAnime{
+  animation: animeScrollRight .3s ease-out;
+}
+
+@keyframes animeScrollTop {
+  0%{
+    opacity:0;
+    transform: translateY(-35px);
+  }
+  100%{
+    opacity:1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes animeScrollLeft {
+  0%{
+    opacity:0;
+    transform: translateX(-35px);
+  }
+  100%{
+    opacity:1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes animeScrollRight {
+  0%{
+    opacity:0;
+    transform: translateX(35px);
+  }
+  100%{
+    opacity:1;
+    transform: translateX(0);
+  }
+}
+
+
+@keyframes changeFrameText {
+  0%{
+    opacity: 0;
+    transform: translateX(-15px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes arrowMove {
+  0%{
+    transform: translateX(0) rotate(-180deg);
+  }
+  50%{
+    transform: translateX(30%) rotate(-180deg);
+  }
+  100%{
+    transform: translateX(0) rotate(-180deg);
+  }
+}

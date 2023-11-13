@@ -1,0 +1,284 @@
+.sobre-banner-title{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  z-index: 16;
+}
+
+.sobre-banner{
+  position: relative;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/imgs/banner-sobre.jpg);
+  background-size:cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.sobre-banner-title h2{
+  font-size: 2.5rem;
+  font-family: "rubick-regular";
+  z-index: 17;
+  position: relative;
+}
+
+.sobre-banner-title h2::after{
+  content: "";
+  position: absolute;
+  bottom:-25%;
+  left:0;
+  width: 20%;
+  height: 5px;
+  background-color:#FAA303;
+}
+
+.filosofia{
+  position: relative;
+  width: 1300px;
+  max-width: 100%;
+  height: 500px;
+  margin:0 auto;
+  padding: 50px 30px 0 30px;
+  font-family: "rubick-regular";
+  color:#424242;
+}
+
+.filosofia-box{
+  position: absolute;
+  bottom:-5%;
+  left:50%;
+  transform: translateX(-50%);
+  width: 90%;
+  z-index: 350;
+}
+
+.texto-filosofia{
+  font-family: "rubick-light";
+  line-height: 1.5rem;
+  margin:35px 0 35px 0;
+}
+
+.filosofia img{
+  width: 100%;
+}
+
+
+.filosofia-item-img{
+  position: relative;
+  box-shadow: -1px 17px 20px -8px rgba(0,0,0,0.35);
+}
+
+.filosofia-item-img::after{
+  content: "";
+  position: absolute;
+  bottom:0;
+  left:0;
+  width: 100%;
+  height: 15px;
+  background-color:#FAA303;
+}
+
+.imagem-filosofia{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+
+.objetivo, .fazemos{
+  width: 100%;
+  position: relative;
+  font-family: "rubick-light";
+  background: #ffffff;
+  color:#424242;
+  padding:50px 0;
+  margin:0 auto;
+  place-items: center;
+}
+
+.align-blocks{
+  position: relative;
+  width: 1300px;
+  max-width: 100%;
+  height: 100%;
+  display: grid;
+  margin:0 auto;
+  place-items: center;
+  gap: 30px;
+}
+
+.fazemos{
+  background:linear-gradient(90deg, rgba(223,120,0,1) 0%, rgba(255,138,0,1) 100%)
+}
+
+.fazemos .align-blocks{
+  grid-template-columns: 0.7fr 1fr;
+  color:#ffffff;
+}
+
+.objetivo .align-blocks{
+  grid-template-columns: 1fr 0.7fr;
+}
+
+.texto-objetivo, .texto-fazemos{
+  display: flex;
+  max-width: 100ch;
+  height: 100%;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.texto-box, .texto-box-fazemos{
+padding: 150px 40px;
+}
+
+.texto-box h2, .texto-box-fazemos h2{
+  font-size: 2.5rem;
+}
+
+.texto-box p, .texto-box-fazemos p{
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.img-objetivo, .img-fazemos{
+  width: 80%;
+  height: 80%;
+}
+
+.img-objetivo img, .img-fazemos img{
+  width: 100%;
+  height: 100%;
+}
+
+.img-objetivo img{
+  transform: rotateY(-180deg);
+}
+
+.objetivo h2, .fazemos h2{
+  font-size:3rem;
+  margin-bottom:70px;
+  font-family: "rubick-regular";
+}
+
+
+
+@media screen and (max-width:1170px) {
+  .texto-box{
+    font-size:0.9rem;
+    line-height: 1.6rem;
+  }
+
+  .fazemos .align-blocks, .objetivo .align-blocks{
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 0;
+  }
+
+  .texto-box, .texto-box-fazemos{
+    padding:40px;
+  }
+
+  .texto-fazemos{
+    place-self: start;
+  }
+
+}
+
+@media screen and (max-width:1030px){
+  .objetivo{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width:915px) {
+  .objetivo h2{
+    font-size:2.2rem;
+  }
+}
+
+@media screen and (max-width:840px) {
+  .texto-box{
+    font-size:0.7rem;
+    line-height: 1.4rem;
+  }
+
+  .objetivo h2, .fazemos h2{
+    font-size:1.8rem;
+    margin-bottom:40px;
+  }
+}
+
+@media screen and (max-width:700px){
+
+  .texto-box, .texto-box-objetivo{
+    padding:50px 40px;
+  }
+}
+
+
+@media screen and (max-width:540px){
+  .filosofia{
+    height: initial;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(239,246,255,1) 92%);
+    margin-bottom:30px;
+  }
+
+  .filosofia-box{
+    position: relative;
+  }
+
+  .imagem-filosofia {
+    grid-template-columns: 1fr;
+  }
+
+  .texto-box p, .texto-box-fazemos p{
+    font-size:1rem;
+    line-height: 1.3rem;
+  }
+}
+
+
+@media screen and (max-width:450px){
+  .texto-filosofia{
+    font-size:0.75rem;
+    line-height: 1.2rem;
+  }
+  
+}
+
+@media screen and (max-width:390px){
+  .texto-box p, .texto-box-fazemos p{
+    font-size:0.8rem;
+    line-height: 1rem;
+  }
+
+  .texto-box, .texto-box-fazemos{
+    padding:40px 15px;
+  }
+}
+
+@media screen and (max-width:350px){
+
+  .filosofia{
+    padding:50px 10px 50px 10px;
+  }
+
+  .texto-filosofia{
+    font-size:0.8rem;
+    line-height: 1rem;
+  }
+
+
+  .texto-box{
+    font-size:0.5rem;
+    line-height: 1.1rem;
+  }
+}
+

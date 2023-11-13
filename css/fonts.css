@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "rubick-light";
+  src: url(/fonts/Rubik-Light.ttf);
+}
+
+@font-face {
+  font-family: "rubick-medium";
+  src: url(/fonts/Rubik-Medium.ttf);
+}
+
+@font-face {
+  font-family: "rubick-regular";
+  src: url(/fonts/Rubik-Regular.ttf);
+}
+
+@font-face {
+  font-family: "rubick-semiBold";
+  src: url(/fonts/Rubik-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "rubick-black";
+  src: url(/fonts/Rubik-Black.ttf);
+}
+
+@font-face {
+  font-family: "rubick-blackIT";
+  src: url(/fonts/Rubik-BlackItalic.ttf);
+}
+
+
+@font-face {
+  font-family: "rubick-light";
+  src: url(/fonts/Rubik-Light.ttf);
+}
