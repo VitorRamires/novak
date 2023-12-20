@@ -318,7 +318,7 @@
   opacity: 0;
   bottom:0;
   width: 100%;
-  background: #222222;
+  background: #222222cb;
   color:#ffffff;
   font-size:1.1rem;
   font-family: "rubick-regular";
@@ -672,7 +672,11 @@
 @media screen and (max-width:950px){
   .inicio-projeto-box{
     grid-template-columns:1fr;
-    gap: 10px;
+  }
+  
+  .inicio-projetos .center{
+    max-width: 100%;
+    width: 100%;
   }
 }
 
@@ -744,9 +748,15 @@
     grid-template-columns: 1fr;
   }
 
+  
+  .equipe-box {
+    width: 100%;
+    padding: 60px 0 60px 0;
+}
+
   .equipe-box img {
     max-width: 300px;
-    width: 90%;
+    width: 100%;
   }
 
   .foto {
@@ -763,5 +773,11 @@
   .equipe-box-info .equipe-box-resumo{
     font-size:0.9rem;
     line-height: 1.5rem;
+  }
+}
+
+@media screen and (max-width:310px){
+  .especialidades h2{
+    font-size:2rem;
   }
 }

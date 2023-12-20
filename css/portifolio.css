@@ -53,6 +53,11 @@
   width: 100%;
 }
 
+.projeto{
+  position: relative;
+  box-shadow: 8px 5px 20px 2px #00000077;
+}
+
 
 .projeto-img{
   display: flex;
@@ -72,20 +77,6 @@
   border-bottom: 10px inset #FAA303; 
 }
 
-.projeto-texto{
-  padding:50px;
-  background-color: #2e2e2e;
-  color:#ffff;
-  font-size:1rem;
-  text-align: start;
-  line-height: 1.4rem;
-  font-family: "rubick-light";
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: center;
-  display: none;
-}
 
 .cta-projeto{
   position: relative;
@@ -118,37 +109,15 @@
   animation: arrowMove 1s ease-in-out 15;
 }
 
-@media screen and (max-width:1350px){
-  .projeto-texto{
-    font-size:1rem;
-    line-height: 1.5rem;
-  }
-}
-
-@media screen and (max-width:1350px){
-    .projeto-texto{
-      font-size:0.8rem;
-      line-height: 1.3rem;
-    }
-}
 
 @media screen and (max-width:1000px){
   .portifolio-box-item{
     grid-template-columns: 1fr;
+    max-width: 100%;
   }
 }
 
 @media screen and (max-width:480px){
-  .projeto-texto{
-    font-size:0.7rem;
-    line-height: 1.1rem;
-    padding:30px 15px;
-  }
-
-  .projeto-texto .cta{
-    margin-top:35px;
-  }
-
   .portifolio-banner-title h2{
     font-size:1.7rem;
     text-align: center;
