@@ -11,12 +11,12 @@
 .activeBar{
   background-color: #FF8A00;
   transition: 0.3s;
-  transform: scale(1.05);
+  z-index: 35;
 }
 
 .currentSlide{
   transform: scale(1.05);
-  background-color: #ffff;
+  background-color: #ffffff;
   transition: 0.2s;
 }
 
@@ -93,3 +93,5 @@
     transform: translateX(0) rotate(-180deg);
   }
 }
+
+
