@@ -12,7 +12,6 @@ export default function changeAdicionais(){
 
     btnAdicional[index].classList.add('activeBar')
     adicionais[index].classList.add('changeAdd')
-  
   }
 
   btnAdicional.forEach((btn, index)=>{

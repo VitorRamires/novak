@@ -5,7 +5,6 @@ const imgPainel = document.querySelector(".dynamic-bg img"),
       imgsGalery = document.querySelectorAll(".images-galery .slide"),
       framesParagraph = document.querySelectorAll(".p-frame")
     
-    
     function changeFrame(index, image){
       const imageSrc = image.src
       imgPainel.src = imageSrc 
