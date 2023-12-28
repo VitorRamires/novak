@@ -25,7 +25,6 @@ padding: 50px 0 50px 0;
   background-color:#FF8A00;
 }
 
-
 .destaque-box{
   position: relative;
   width: 90%;
@@ -98,13 +97,11 @@ padding: 50px 0 50px 0;
   .destaque-info h2{
     font-size:1rem;
   }
-
   .destaque-info p{
     line-height: 1rem;
     font-size:0.6rem;
     max-width: 100%;
   }
-  
 }
 
 @media screen and (max-width:1000px){

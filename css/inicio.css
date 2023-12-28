@@ -303,13 +303,11 @@
   object-fit: cover;
 }
 
-
 .inicio-projetos-itens:hover .descricao{
   transition: 0.3s;
   opacity: 1;
   height: 40%;
 }
-
 
 .descricao{
   position: absolute;
@@ -337,7 +335,6 @@
 .descricao-texto{
   margin-left:30px;
 }
-
 
 .veja-destaques{
   background-color: #555555;
@@ -376,14 +373,12 @@
   width: 90%;
 }
 
-
 .adicionais{
   background-color: #3E3E3E;
   position: relative;
   color:#ffff;
   padding-bottom:100px;
 }
-
 
 .especialidades h2, .equipe h2{
   margin:75px 0 45px 0;
@@ -424,7 +419,6 @@
   border-radius: 50%;
 }
 
-
 @keyframes clickHandle {
   0%{
     transform: translate(-50%, -50%) scale(1);
@@ -436,8 +430,6 @@
     transform: translate(-50%, -50%) scale(1);
   }
 }
-
-
 
 .especialidades, .equipe{
   display: none;
@@ -542,12 +534,10 @@
     width: 100%;
     height: 450px;
   }
-
   .images-galery{
     left:50%;
     transform: translateX(-50%);
   }
-
 }
 
 @media screen and (max-width:520px) {
@@ -564,30 +554,23 @@
   .p-frame h1{
     font-size:2rem;
   }
-
   .p-frame h2 {
     font-size:1rem;
   }
-
   .frame{
     padding:50px 10px;
   }
-
   .p-frame p{
     font-size:0.8rem;
     line-height: 1.2rem;
   }
 }
 
-
-
 /*Setores de atuação*/
-
 @media screen and (max-width:1100px) {
   .box-atuacao-body {
     grid-template-columns: 1fr 1fr;
   }
-
   .atuacao-info{
     height: 70px;
   }
@@ -609,18 +592,13 @@
   .atuacao-titulo{
     font-size: 1.2rem;
   }
-
   .atuacao-info{
     height: 50px;
   }
 }
 
 
-
-
-
 /*Sobre-inicio*/
-
 @media screen and (max-width:1080px) {
   .inicio-sobreNos-texto{
     font-size: 1rem;
@@ -628,24 +606,19 @@
   }
 }
 
-
 @media screen and (max-width:840px) {
-
   .inicio-sobre-nos{
     background-size: auto;
     background-position: 85% 50%;
     margin-top:90px;
   }
-
   .info-inicio-sobreNos, .inicio-sobre-nos .center{
     width: 100%;
     max-width: 100%;
   }
-
   .info-inicio-sobreNos .titulo1{
     font-size: 2rem;
   }
-
 }
 
 @media screen and (max-width:395px) {
@@ -653,33 +626,22 @@
     font-size: 0.7rem;
     line-height: 1.2rem;
   }
-
-
-
   .info-inicio-sobreNos .titulo1{
     font-size: 1.25rem;
     margin-bottom: 35px;
   }
 }
 
-
-
-
-
 /* Projetos inicio */
-
-
 @media screen and (max-width:950px){
   .inicio-projeto-box{
     grid-template-columns:1fr;
   }
-  
   .inicio-projetos .center{
     max-width: 100%;
     width: 100%;
   }
 }
-
 
 @media screen and (max-width:600px){
   .descricao{
@@ -689,17 +651,14 @@
     gap: 10px;
     padding:0 10px;
   }
-
   .descricao-texto{
     padding:0;
     font-size: 0.9rem;
   }
-
   .descricao-btn img{
     width: 20px;
     height: auto;
   }
-
   .inicio-projetos-itens:hover .descricao{
     transition: 0.3s;
     opacity: 1;
@@ -707,21 +666,14 @@
   }
 }
 
-
-
-
-
 /* Destaques inicio*/
-
 @media screen and (max-width:580px){
   .box-veja-destaques p{
     font-size:1rem;
   }
-
   .box-veja-destaques h2{
     font-size:1.2rem;
   }
-
   .titulo1{
     font-size:1.2rem;
   }
@@ -731,39 +683,31 @@
   .titulo1{
     font-size:1rem;
   }
-
   .inicio-projetos{
     margin:50px auto 0 auto;
   }
-  
   .inicio-projetos .center{
     padding: 0 0px 80px 0px;
   }
 }
 
 /* equipe e especialidades */
-
 @media screen and (max-width:1024px){
   .equipe-box .center {
     grid-template-columns: 1fr;
   }
-
-  
   .equipe-box {
     width: 100%;
     padding: 60px 0 60px 0;
-}
-
+  }
   .equipe-box img {
     max-width: 300px;
     width: 100%;
   }
-
   .foto {
     box-shadow: unset;
     height: 350px;
   }
-
   .click-img{
     padding: 10px;
   }
@@ -775,7 +719,6 @@
     line-height: 1.5rem;
   }
 }
-
 @media screen and (max-width:310px){
   .especialidades h2{
     font-size:2rem;

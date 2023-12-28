@@ -75,7 +75,6 @@ textarea{
 }
 
 
-
 input[type=file]{
   position: absolute;
   top:0;
@@ -121,7 +120,6 @@ input:focus, textarea:focus{
   align-items: start;
   justify-content: center;
 }
-
 
 .links-contato-form{
   position: relative;

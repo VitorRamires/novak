@@ -61,7 +61,6 @@ header{
   list-style-type: none;
 }
 
-
 .header-contato-informacao a{
   color:#ffff;
   text-decoration: none;
@@ -73,14 +72,12 @@ header{
   transition: 0.2s;
 }
 
-
 .header-contato-redes-sociais{
   display: flex;
   gap: 20px;
   align-self: center;
   justify-self: end;
 }
-
 
 .menu{
   width: 100%;
@@ -90,7 +87,6 @@ header{
   -webkit-box-shadow: -1px 3px 3px 0px rgba(0,0,0,0.24);
   -moz-box-shadow: -1px 3px 3px 0px rgba(0,0,0,0.24);
 }
-
 
 .menu-body{
   height: 100%;
@@ -132,8 +128,6 @@ header{
   left:0;
   transition: 0.2s;
 }
-
-
 
 .menu-hamburguer{
   opacity: 1;
@@ -232,8 +226,6 @@ a.linkAtivo::after{
     margin-right:0;
   }
 }
-  
-  
 
 @media screen and (max-width:950px){
   .menu-itens{
@@ -245,7 +237,6 @@ a.linkAtivo::after{
   .menu-itens{
     display: none;
   }
-
 
   .menu-itens-hamburguer{
     position: fixed;
@@ -296,7 +287,6 @@ a.linkAtivo::after{
     justify-content: center;
   }
 }
-
 
 @media screen and (max-width:510px) {
   .header-contato{
