@@ -19,17 +19,19 @@ export default function menuMobileHandle(){
       imgMenuHamburguer.style.opacity = 1
     } 
   }
+
   function hiddenMenuWorked(menuImg){
     menuImg.addEventListener("click", handleHiddenMenu)
   }
   menuHamburguer.forEach(hiddenMenuWorked)
+
   const menuItem = document.querySelectorAll(".menu-item")
   function actualPageHandle(item){
     if(document.location.href.includes(item.href)){
       item.classList.add("linkAtivo")
     }
   }
+  
   menuItem.forEach(actualPageHandle)
-
 }
 
