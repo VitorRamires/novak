@@ -250,7 +250,7 @@ a.linkAtivo::after{
     z-index: 9999;
   }
 
-  .menu-itens-hamburguer .logo{
+  .menu-itens-hamburguer .logo a{
     font-size:2rem;
     margin-bottom:20px;
     font-family: "rubick-blackIT";
