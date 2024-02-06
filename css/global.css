@@ -56,8 +56,8 @@ body {
   content: "";
   position: relative;
   width: 20px;
-  height: 40px;
-  background-color: #a8a8a8;
+  height: 30px;
+  background-color: #eeeeee;
   border-bottom: 10px solid #FF9A23;
 }
 
@@ -93,4 +93,10 @@ body {
   height: 100%;
   top: 0;
   left: 0;
+}
+
+@media screen and (max-width:400px) {
+  .titulo{
+    font-size: 1.5rem;
+  }
 }

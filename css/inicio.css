@@ -116,6 +116,10 @@
   background: linear-gradient(0deg, #f7f7f7, #ffffff, #ffffff);
 }
 
+.inicio-atuacao .titulo{
+  margin-bottom: 80px;
+}
+
 .inicio-atuacao .center {
   z-index: 9;
 }
