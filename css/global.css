@@ -48,7 +48,7 @@ body {
   transform: translateY(-50%);
   width: 100%;
   height: 60px;
-  background-color: #FF9A23;
+  background-color: #c43c3c;
 }
 
 .titulo-atuacao::before,
@@ -58,17 +58,12 @@ body {
   width: 20px;
   height: 30px;
   background-color: #eeeeee;
-  border-bottom: 10px solid #FF9A23;
+  border-bottom: 10px solid #ab1213;
 }
 
 .logo a {
   color: #1f1f1f;
   text-decoration: none;
-}
-
-.cta:hover {
-  background-color: #B66200;
-  transition: 0.2s;
 }
 
 .cta {
@@ -80,12 +75,18 @@ body {
   font-family: "rubick-semiBold";
   font-size: 1.3rem;
   display: inline-block;
-  background-color: #FF9A23;
+  background-color: #ab1213;
   margin-top: 65px;
   cursor: pointer;
   text-align: center;
   transition: 0.2s;
 }
+
+.cta:hover {
+  background-color: #ff0000;
+  transition: 0.2s;
+}
+
 
 .div-link {
   position: absolute;
@@ -95,6 +96,11 @@ body {
   left: 0;
 }
 
+@media screen and (max-width:950px) {
+  .titulo{
+    margin-left: 5%;
+  }
+}
 @media screen and (max-width:400px) {
   .titulo{
     font-size: 1.5rem;

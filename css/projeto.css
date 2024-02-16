@@ -81,7 +81,7 @@
   left:0;
   width: 40%;
   height: 8px;
-  background-color: #f88c10;
+  background-color: #c43c3c;
 }
 
 .caracteristicas{
@@ -98,17 +98,17 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
-  gap: 25px;
+  gap: 45px;
   margin-top:60px;
   color: #f1f1f1;
 }
 
 .caracteristicas-box{
-  background: linear-gradient(180deg, rgba(255,138,0,1) 0%, rgba(223,120,0,1) 100%);
+  background: linear-gradient(75deg, #ab1213, #6d0000);
   padding:40px 30px;
   font-family: "rubick-regular";
-  border-bottom:8px solid #333333;
-  box-shadow: 5px 5px 10px 5px #dddddd;
+  border-bottom:8px solid #cecece;
+  box-shadow: 10px 10px 10px 0px #0000006c;
 }
 
 .caracteristicas-box p{

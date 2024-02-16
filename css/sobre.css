@@ -33,7 +33,7 @@
   left:0;
   width: 20%;
   height: 5px;
-  background-color:#FAA303;
+  background-color:#c01819;
 }
 
 .filosofia{
@@ -78,7 +78,7 @@
   left:0;
   width: 100%;
   height: 15px;
-  background-color:#FAA303;
+  background-color:#cecece;
 }
 
 .imagem-filosofia{
@@ -110,7 +110,7 @@
 }
 
 .fazemos{
-  background:linear-gradient(90deg, rgba(223,120,0,1) 0%, rgba(255,138,0,1) 100%)
+  background:linear-gradient(165deg, #6d0000, #ab1213)
 }
 
 .fazemos .align-blocks{

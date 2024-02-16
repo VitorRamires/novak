@@ -52,7 +52,7 @@
   left:0;
   width: 20%;
   height: 5px;
-  background-color:#FF8A00;
+  background-color:#820606;
 }
 
 .setor{
@@ -107,7 +107,7 @@
   right: unset;
   width: 30px;
   height: 15px;
-  background-color:#FF9A23;
+  background-color:#c01819;
 }
 
 .even .info-setor-box::before, .even .info-setor-box::after{
@@ -123,7 +123,7 @@
   left:-3%;
   width: 30px;
   height: 15px;
-  background-color:#FF9A23;
+  background-color:#c01819;
 }
 
 .adicional-setor-box{
@@ -137,7 +137,7 @@
 
 .adicional-setor-box h2{
   font-family: "rubick-light";
-  color:#FF8A00;
+  color:#ffffff;
 }
 
 .texto-setor-box{
@@ -178,7 +178,7 @@
     right: unset;
     width: 85%;
     height: 10px;
-    background:#FAA303;
+    background:#c01819;
     transform: translateY(0);
     border-radius: unset;
   }

@@ -34,7 +34,7 @@
   left:0;
   width: 20%;
   height: 5px;
-  background-color:#FF8A00;
+  background-color:#820606;
 }
 
 .portifolio-box-item{
@@ -74,7 +74,7 @@
   padding:25px;
   font-family: "rubick-semiBold";
   color:#ffff;
-  border-bottom: 10px inset #FAA303; 
+  border-bottom: 10px inset #cecece; 
 }
 
 
@@ -90,7 +90,7 @@
   left:0;
   width: 100%;
   height: 100%;
-  background:#FF8A00;
+  background:#ab1213;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -98,7 +98,7 @@
 }
 
 .btn-projeto:hover{
-  background:#DF7800;
+  background:#ff0000;
   transition: 0.2s;
 }
 

@@ -33,7 +33,7 @@
 }
 
 .destaques-especifico{
-  border-bottom:25px solid #faa303;
+  border-bottom:25px solid #ab1213;
 }
 
 .destaques-especifico::after{
@@ -43,7 +43,7 @@
   left:0;
   width: 100%;
   height: 25px;
-  background-color: #FF8A00;
+  background-color: #6d0000;
 }
 
 .texto-destaque-especifico h2{

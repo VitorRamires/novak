@@ -1,11 +1,3 @@
-.btn-ativo-anexar{
-  background-color: #FF8A00 !important;
-  color: #fdfdfd !important;
-}
-
-.area-texto-inativa{
-  background-color: #575757;
-}
 
 .contato{
   background-color: #222222;
@@ -46,7 +38,7 @@
 
 form{
   background-color: #383838;
-  padding:10px 15px 10px 15px;
+  padding:10px 30px;
 }
 
 .form-item{
@@ -89,26 +81,8 @@ input[type=file]{
 }
 
 
-.enviar{
-  background-color: #FF8A00;
-  padding:15px;
-  width: 200px;
-  margin-bottom:20px;
-  color:#ffff;
-  border: none;
-  font-family: "rubick-medium";
-  font-size: 1.1rem;
-  cursor: pointer;
-  transition: 0.2s;
-}
-
-.enviar:hover{
-  background-color:#BF6905;
-  transition: 0.2s;
-}
-
 input:focus, textarea:focus{
-  border:4px solid #FAA303;
+  border:2px solid #970c0d;
   outline: none;
   background:#f7f7f7;
   border-radius: 5px;
@@ -123,7 +97,7 @@ input:focus, textarea:focus{
 
 .links-contato-form{
   position: relative;
-  background-color: #DF7800;
+  background-color: #ab1213;
   padding:40px 30px;
   display: flex;
   flex-direction: column;
@@ -139,11 +113,11 @@ input:focus, textarea:focus{
   left:0;
   width: 100%;
   height: 10px;
-  background-color: #FFC179;
+  background-color: #cecece;
 }
 
 .links-contato-form a{
-  color:#ffff;
+  color:#ffffff;
   text-decoration: none;
   font-family: "rubick-medium";
   margin-left: 18px;

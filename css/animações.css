@@ -9,7 +9,7 @@
 }
 
 .activeBar{
-  background-color: #FF8A00;
+  background-color: #c43c3c;
   transition: 0.3s;
   z-index: 35;
 }
